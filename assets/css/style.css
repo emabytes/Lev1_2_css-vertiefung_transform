@@ -1,0 +1,39 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+
+article div {
+    margin:30px;
+    align-items: center;
+    background: rgba(33, 121, 172, 0.8);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+}
+
+.translate:hover {
+    transform: translate(50px, 50px);
+}
+
+.translate-x:hover {
+    transform: translateX(-50px);
+}
+.translate-y:hover {
+    transform: translateY(50px);
+}
+.rotate:hover{
+    transform:rotate(45deg);
+}
+.scale:hover{
+    transform:scale(1,1.5);
+}
+.skew:hover{
+    transform:skew(20deg)
+}
+
